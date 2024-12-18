@@ -9,7 +9,7 @@ The **Apriori algorithm** is used as the limited-pass algorithm in this implemen
 
 ## **Project Structure**
 
-### 1. **Part 1: Simulated Dataset**
+### **Part 1: Simulated Dataset**
 - **Objective**: Generate market-basket models for both businesses and users using a small dataset.
 - **Cases**:
   - **Case 1**: Frequent businesses in user baskets.
@@ -27,7 +27,7 @@ The **Apriori algorithm** is used as the limited-pass algorithm in this implemen
 
 ---
 
-### 2. **Part 2: Ta Feng Dataset**
+### **Part 2: Ta Feng Dataset**
 - **Objective**: Process the Ta Feng dataset to generate frequent itemsets and identify customers with frequent purchases.
 - **Steps**:
   1. **Preprocessing**:
