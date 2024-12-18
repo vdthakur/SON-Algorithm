@@ -1,4 +1,4 @@
-# **SON Algorithm with Spark Framework**
+# **SON Algorithm with Spark**
 
 ## **Project Overview**
 This project implements the SON (Sequential Algorithm) to identify frequent itemsets in large datasets. The SON algorithm is applied in two tasks using the Spark framework. Part 1 uses a small simulated dataset, while Part 2 uses the real-world Ta Feng dataset. The project showcases distributed computing techniques to handle massive datasets effectively. 
