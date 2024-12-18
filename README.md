@@ -1,7 +1,7 @@
 # **SON Algorithm with Spark Framework**
 
 ## **Project Overview**
-This project implements the SON (Sequential Algorithm) to identify frequent itemsets in large datasets. The SON algorithm is applied in two tasks using the Spark framework. Task 1 uses a small simulated dataset, while Task 2 uses the real-world Ta Feng dataset. The project showcases distributed computing techniques to handle massive datasets effectively. 
+This project implements the SON (Sequential Algorithm) to identify frequent itemsets in large datasets. The SON algorithm is applied in two tasks using the Spark framework. Part 1 uses a small simulated dataset, while Part 2 uses the real-world Ta Feng dataset. The project showcases distributed computing techniques to handle massive datasets effectively. 
 
 The **Apriori algorithm** is used as the limited-pass algorithm in this implementation to efficiently process chunks of the dataset.
 
@@ -9,7 +9,7 @@ The **Apriori algorithm** is used as the limited-pass algorithm in this implemen
 
 ## **Project Structure**
 
-### 1. **Task 1: Simulated Dataset**
+### 1. **Part 1: Simulated Dataset**
 - **Objective**: Generate market-basket models for both businesses and users using a small dataset.
 - **Cases**:
   - **Case 1**: Frequent businesses in user baskets.
@@ -27,7 +27,7 @@ The **Apriori algorithm** is used as the limited-pass algorithm in this implemen
 
 ---
 
-### 2. **Task 2: Ta Feng Dataset**
+### 2. **Part 2: Ta Feng Dataset**
 - **Objective**: Process the Ta Feng dataset to generate frequent itemsets and identify customers with frequent purchases.
 - **Steps**:
   1. **Preprocessing**:
@@ -108,8 +108,8 @@ For both tasks:
 
 ### Task 1
 ```bash
-spark-submit task1.py <case_number> <support> <input_file_path> <output_file_path>
+spark-submit part1.py <case_number> <support> <input_file_path> <output_file_path>
 
-spark-submit task2.py <filter_threshold> <support> <input_file_path> <output_file_path>
+spark-submit part2.py <filter_threshold> <support> <input_file_path> <output_file_path>
 ```
 ===
